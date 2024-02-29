@@ -1,0 +1,12 @@
+{
+  "orgName": "Acme",
+ "sourceorg":"00DF9000000fGKz",
+ "features": ["Communities"],
+ "hasSampleData":"true",
+ "settings": {
+    "communitiesSettings": {
+        "enableNetworksEnabled":true
+        
+    }
+ }
+}
