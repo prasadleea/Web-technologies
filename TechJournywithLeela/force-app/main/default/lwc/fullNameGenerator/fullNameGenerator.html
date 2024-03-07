@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="FullNamegenerator">
+        <div class="slds-var-p-around_small">
+            <lightning-input label="First Name" onchange={changeHandler} placeholder="Enter First Name"></lightning-input>
+            <lightning-input label="Last Name" onchange={changeHandler} placeholder="EnterLast Naame"></lightning-input> 
+              </div>
+    <div class="slds-var-p-around_small">
+        <lightning-button label="FullNameGenerator" variant="neutral"  class="slds-var-p-around_small" onclick={generateHandler}></lightning-button>
+    </div>
+    <div class="slds-var-p-around_small">
+        <p>Full Name:{fullname}</p>
+    </div>
+        </lightning-card>
+</template>

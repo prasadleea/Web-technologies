@@ -1,11 +1,26 @@
 <template>
     <lightning-card title="Nested Private Object Property">
     <p class="slds-var-p-around_small"> Hello {myDetails.fname}</p>
+    <p class="slds-var-p-around_small">{myTask}</p>
     <div class="slds-var-p-around_small">
         <lightning-button
         label="Chane name"
         variant="brand"
         onclick={clickHandler}
+        ></lightning-button></div>
+
+        <div class="slds-var-p-around_small">
+        <lightning-button
+        label="Add Task"
+        variant="brand"
+        onclick={taskHandler}
+        ></lightning-button></div>
+
+        <div class="slds-var-p-around_small">
+        <lightning-button
+        label="Refresh"
+        variant="brand"
+        onclick={RefreshHandler}
         ></lightning-button></div>
     </lightning-card>
 
