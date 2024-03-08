@@ -5,7 +5,7 @@ export default class ParentComponent extends LightningElement {
     greeting="hello Welcome To LWC";
     userdetails={fname:"Anil",
                  lname:"Ajay",
-                 channel:"BBC"
+                 channel:"bbc"
                 };
 
 }
